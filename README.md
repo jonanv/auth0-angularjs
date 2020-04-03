@@ -53,6 +53,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ***
 
+# Create component without -is (inline styles) and --skipTests (file of test)
+```javascript
+ng generate component components/navbar -is --skipTests
+```
+or
+```javascript
+ng g c components/navbar -is --skipTests
+```
+
 # Server local
 install global ```sudo npm i -g http-server```
 
