@@ -62,6 +62,15 @@ or
 ng g c components/navbar -is --skipTests
 ```
 
+# Create service without --skipTests (file of test) or --spec=false
+```javascript
+ng generate service services/auth --skipTests
+```
+or
+```javascript
+ng g s services/auth --skipTests
+```
+
 # Server local
 install global ```sudo npm i -g http-server```
 
