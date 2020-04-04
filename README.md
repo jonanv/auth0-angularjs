@@ -7,7 +7,7 @@
 [![Angular JS][angular-badge]][angular-url]
 [![License][license-badge]][license-url]
 
-# Site
+<!-- # Site -->
 <!-- ![Spotify angularjs](https://i.imgur.com/B2heenX.png) -->
 
 # Install dependences
@@ -69,6 +69,15 @@ ng generate service services/auth --skipTests
 or
 ```javascript
 ng g s services/auth --skipTests
+```
+
+# Create service without --skipTests (file of test) or --spec=false
+```javascript
+ng generate guard guards/auth --skipTests
+```
+or
+```javascript
+ng g g guards/auth --skipTests
 ```
 
 # Server local
