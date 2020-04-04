@@ -8,7 +8,7 @@
 [![License][license-badge]][license-url]
 
 <!-- # Site -->
-<!-- ![Spotify angularjs](https://i.imgur.com/B2heenX.png) -->
+<!-- ![auth0 angularjs](https://i.imgur.com/B2heenX.png) -->
 
 # Install dependences
 in ```auth0-angularjs/```
@@ -83,7 +83,7 @@ ng g g guards/auth --skipTests
 # Server local
 install global ```sudo npm i -g http-server```
 
-deploy in ```/spotify-angularjs/dist/spotify-angularjs/```
+deploy in ```/auth0-angularjs/dist/auth0-angularjs/```
 
 ```javascript
 http-server
