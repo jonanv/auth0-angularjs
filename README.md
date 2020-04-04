@@ -71,7 +71,7 @@ or
 ng g s services/auth --skipTests
 ```
 
-# Create service without --skipTests (file of test) or --spec=false
+# Create guard without --skipTests (file of test) or --spec=false
 ```javascript
 ng generate guard guards/auth --skipTests
 ```
